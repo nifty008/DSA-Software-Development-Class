@@ -68,7 +68,7 @@ let students = [{
 console.log(students[1].name);
 
 
-let students = [
+let students1 = [
     {name: "Favour", score: 78, department: "Linguistics"},
     {name: "Hassan", score: 45, department: "Mechanical Engineering"},
     {name: "Charles", score: 62, department: "Public Administration"}
@@ -77,18 +77,10 @@ let students = [
 
 console.log(students);
 
-for (let i = 0; i < students.length; i++) {
-    if (students[i].score > 50) {
-        console.log(students[i].name + " Passed");
+for (let i = 0; i < students1.length; i++) {
+    if (students1[i].score > 50) {
+        console.log(students1[i].name + " Passed");
     } else {
-        console.log(students[i].name + " Failed");
-    }
-}
-
-for (let i = 0; i < students.length; i++) {
-    if (students[i].score > 50) {
-        console.log(students[i].name + " Passed");
-    } else {
-        console.log(students[i].name + " Failed");
+        console.log(students1[i].name + " Failed");
     }
 }
