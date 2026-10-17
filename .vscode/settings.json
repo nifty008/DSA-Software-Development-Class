@@ -5,5 +5,8 @@
     "comments": "on",
     "strings": "on"
   },
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.edits.renderSideBySide": "never",
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on"
 }
